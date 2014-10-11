@@ -1,0 +1,7 @@
+%{ def theme = _arg}%
+#{if theme == 'light'}
+<link rel="stylesheet" media="screen" href="@{'/public/Microsoft.WinJS.2.1/css/ui-light.css'}">
+#{/if}
+#{else}
+<link rel="stylesheet" media="screen" href="@{'/public/Microsoft.WinJS.2.1/css/ui-dark.css'}">
+#{/else}
